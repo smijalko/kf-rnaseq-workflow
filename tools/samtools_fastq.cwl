@@ -14,7 +14,7 @@ baseCommand: ["/bin/bash", "-c"]
 arguments:
   - position: 1
     shellQuote: false
-    valueFrom: >-
+    valueFrom: |
       set -eo pipefail
 
       ${
